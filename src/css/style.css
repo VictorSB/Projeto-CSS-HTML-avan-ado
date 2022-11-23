@@ -43,15 +43,15 @@ body{
     color: aliceblue;
     font-weight: 700;
     line-height: 60px;
-    padding: 30px 30px 0 0;
+    
 }
 
 .container .infos p{
-    font-size: 18px;
+    font-size: 20px;
     color: aliceblue;
     padding: 60px 0;  
     line-height: 30px; 
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .container .infos .btn{
