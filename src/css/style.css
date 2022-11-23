@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+
+body{
+    min-height: 100vh;
+    max-width: 1440px;
+    background: hsl(257, 40%, 49%);
+    background-image: url(../images/bg-desktop.svg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header .logo{
+    max-width: 100%;
+    padding: 50px 250px 50px 100px;   
+}
+
+.container{
+    display: flex;
+    margin: 0 auto;
+}
+
+.container .mockups{ 
+    display: flex;
+    padding: 150px 0 0 100px; 
+    align-self: center;
+    max-width: 100%; 
+}
+
+.container .infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 150px 100px 0 100px;
+}
+
+.container .infos h1{
+    font-size: 40px;
+    color: aliceblue;
+    font-weight: 700;
+    line-height: 60px;
+    padding: 30px 30px 0 30px;
+}
+
+.container .infos p{
+    font-size: 20px;
+    color: aliceblue;
+    padding: 60px 0;  
+    line-height: 30px; 
+    font-weight: 400;
+}
+
+.container .infos .btn{
+    background-color: aliceblue; 
+    color: hsl(257, 40%, 49%);
+    border: none;
+    padding: 20px 80px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.463);
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+
+.container .infos .btn:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.footer .social{
+    padding-top: 50px;
+    height: 145px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+    max-width: 100%;
+}
+
+.footer .social a{
+    font-size: 30px;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid aliceblue;
+    border-radius: 50%;
+    color: aliceblue;
+    margin: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.footer .social a:hover{
+    color: hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%);
+}
+
+
+
+
+
